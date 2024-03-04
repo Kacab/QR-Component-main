@@ -1,0 +1,87 @@
+.container {
+    width: 60%;
+    height: 400px;
+    background-color: hsl(220, 73%, 87%);
+
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+
+.co1 {
+    width: 28%;
+    height: 320px;
+    background-color: azure;
+    margin: auto;
+    position: relative;
+    top: 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sawir {
+    width: 83%;
+    height: 180px;
+    background-color: blanchedalmond;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-image: url(./pictures/image-qr-code.png);
+    background-size: contain;
+}
+
+.writings {
+    width: 80%;
+    height: 40px;
+    font-family: "Outfit", sans-serif;
+
+
+
+    margin: auto;
+    position: relative;
+    top: 25px;
+    font-size: 15px;
+}
+
+.text {
+    width: 80%;
+    height: 40px;
+    font-family: "Outfit", sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    position: relative;
+    top: 15px;
+    margin: auto;
+}
+
+#small {
+
+    position: relative;
+    left: 55px;
+}
+
+@media (max-width:493px) {
+
+    .container {
+        background-color: hsl(220, 73%, 87%);
+        width: 320px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+
+    }
+
+    .sawir {
+        background-size: contain;
+    }
+
+    .co1 {
+        width: 220px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+}
